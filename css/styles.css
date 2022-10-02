@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+}
+
+/*Navbar CSS*/
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+}
+
+#shadow-navbar{
+    width: 100%;
+    height: 12vh;
+}
+
+#navbar button{
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: 2vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+#navbar img{
+    position: relative;
+    left: 3vh;
+}
+
+#sign-in{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#sign-in:hover{
+    border: solid 3px black;
+    background-color: white;
+    color: black;
+}
+
+#register{
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 5px;
+    background-color: rgb(0, 96, 230);
+    color: white;
+    border: solid 0;
+}
+
+#register:hover{
+    background: #3120E0;
+}
+
+#navbar ul li a:hover{
+    color: rgb(0, 96, 230);
+}
+
+/* section 1 css */
+
+#section-1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.s1-div-1{
+    border-radius: 15px;
+    height: 80vh;
+    width: 95vw;
+    background-color: rgb(0, 96, 230);
+    display: flex;
+}
+
+.s1-div-1 h1{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.s1-div-1 p{
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.s1-child-1{
+    height: 100%; 
+    width: 50%;
+    padding: 1.4rem;
+}
+.s1-child-2{
+    height: 100%; 
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.btn-take-a-test{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    margin: 1rem;
+    border: solid 0;
+}
+
+.btn-take-a-test:hover{
+    background-color: rgb(0, 96, 230);
+    border: solid 2px white;
+    color: white;
+}
+
+.btn-how-it-works{
+    height: 3rem;
+    width: 12rem;
+    border-radius: 10px;
+    border: solid 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    background-color: black;
+}
+
+.btn-how-it-works:hover{
+    background-color: rgb(0, 96, 230);
+    border: solid 2px white;
+    color: white;
+}
+
+.s1-child-2 img{
+    height: 70vh;
+    width: auto;
+}
+
+.link-info-div{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    display: none;
+    border-radius: 15px;
+}
+
+#section-1 span{
+    font-size: 0.7rem;
+}
+
+.hr-1{
+    width: 30%;
+}
+
+/* section-2 css */
+
+.register-btn{
+    width: 15rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 5px;
+    border: solid black 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+}
+
+.register-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#section-2{
+    margin-top: 5vh;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+}
+
+.art-circle{
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: rgb(0, 96, 230);
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    color: white;
+    font-size: 6rem;
+}
+
+.art-circle-2{
+    position: absolute;
+    z-index: -1;
+    height: 8rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+}
+/*span css for art circle*/
+#a{
+    position: absolute;
+    top: -3rem;
+    height: 2rem;
+    width:20rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: none;
+}
+
+
+#b{
+    position: absolute;
+    top: -3rem;
+    height: 2rem;
+    width:14rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: none;
+}
+
+#c{
+    position: absolute;
+    top: -3rem;
+    height: 2rem;
+    width:20rem;
+    background-color: lightgray;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    display: none;
+}
+
+
+@keyframes bouncing {
+    0%{
+        bottom: 2rem;
+    }
+    100%{
+        bottom: -5rem;
+    }
+}
+
+@keyframes bouncing-1 {
+    0%{
+        bottom: 14rem;
+    }
+    100%{
+        bottom: -5rem;
+    }
+}
+
+#s2-child-1{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(0, 96, 230);
+}
+
+
+/* section 2 css*/
+
+#s2-main{
+    display: flex;
+    width: 100%;
+}
+
+.s2-child-1{
+    width: 60%;
+}
+
+.s2-child-2{
+    width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2rem;
+    height: 60vh;
+}
+
+.s2-child2-c1{
+    font-size: 2rem;
+    display: block; 
+    margin:0;
+    text-align: right;
+    position: relative;
+}
+
+.art-1{
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: rgb(0, 96, 230);
+    position: absolute;
+    top: 2px;
+    z-index: -1;
+    animation: slidingArt 2s infinite alternate;
+}
+
+@keyframes slidingArt {
+    0%{
+        height: 4rem;
+        width: 4rem;
+    }
+    100%{
+        height: 1rem;
+        width: 1rem;
+    }
+}
+
+.s2-c1-list{
+    text-align: left;
+    font-size: 1.5rem;
+}
+.s2-c1-list i{
+    margin-right: 1rem;
+}
+
+/* cards css */
+
+.container-1{
+    width: 100%;
+    background-color: rgb(0, 96, 230);
+    height: fit-content;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    display: flex;
+
+}
+
+.card{
+    height: 30vh;
+    width: 50vh;
+    background-color: white;
+    border-radius: 6px;
+    margin: 3vh;
+}
+
+.card-logo{
+    font-size: 2.5rem;
+    color: rgb(0, 96, 230);
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card-content{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.card-content h1{
+    margin: 0;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
